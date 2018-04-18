@@ -1,0 +1,34 @@
+repository:
+  name: franz-recipe-dialpad
+  description: Franz 5 recipe for dialpad.com
+  homepage: https://github.com/TheKevJames/franz-recipe-dialpad
+  private: false
+
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+
+  allow_merge_commit: true
+  allow_rebase_merge: true
+  allow_squash_merge: true
+
+labels:
+  - name: bug
+    color: fc2929
+  - name: feature
+    color: 84b6eb
+    oldname: enhancement
+  - name: help wanted
+    color: 159818
+  - name: low-priority
+    color: fbca04
+  - name: task
+    color: d93f0b
+  - name: question
+    color: cc317c
+  - name: backlog
+    color: ededed
+  - name: in-progress
+    color: 0052cc
+  - name: in-review
+    color: 5319e7
