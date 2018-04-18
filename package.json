@@ -1,0 +1,16 @@
+{
+  "id": "dialpad",
+  "name": "Dialpad",
+  "version": "1.0.0",
+  "description": "Dialpad",
+  "main": "index.js",
+  "author": "Kevin James <KevinJames@thekev.in>",
+  "license": "MIT",
+  "repository": "https://github.com/TheKevJames/franz-recipe-dialpad",
+  "config": {
+    "serviceURL": "https://dialpad.com/app",
+    "hasIndirectMessages": false,
+    "hasNotificationSound": true,
+    "hasTeamId": false
+  }
+}
