@@ -7,4 +7,4 @@ module.exports = (Franz) => {
   }
 
   Franz.loop(getMessages);
-}
+};

@@ -1,14 +1,14 @@
 repository:
   name: franz-recipe-dialpad
   description: Franz 5 recipe for dialpad.com
-  homepage: https://github.com/TheKevJames/franz-recipe-dialpad
   private: false
 
   has_issues: true
   has_projects: false
   has_wiki: false
+  has_downloads: false
 
-  allow_merge_commit: true
+  allow_merge_commit: false
   allow_rebase_merge: true
   allow_squash_merge: true
 
