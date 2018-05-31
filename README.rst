@@ -12,6 +12,12 @@ Installation
    - Mac: ``~/Library/Application Support/Franz/recipes/dev/``
    - Windows: ``%APPDATA%/Franz/recipes/dev/``
 
+   where ``~`` is your home directory, eg:
+
+   - Linux: ``/home/kevin``
+   - Mac: ``/Users/kevin``
+   - Windows: ``C:/Users/kevin/AppData/Roaming``
+
 #. Copy this repo into the above folder, named ``dialpad``:
 
    - if you have ``git``, run: ``git clone git@github.com:TheKevJames/franz-recipe-dialpad.git ~/.config/Franz/recipes/dev/dialpad``
