@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.0.0
+    rev: v2.1.0
     hooks:
     -   id: check-case-conflict
     -   id: check-executables-have-shebangs
@@ -18,15 +18,19 @@ repos:
     -   id: mixed-line-ending
         args: [--fix=lf]
     -   id: trailing-whitespace
+-   repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.2.0
+    hooks:
+    -   id: rst-backticks
+-   repo: https://github.com/Lucas-C/pre-commit-hooks-markup
+    rev: v1.0.0
+    hooks:
+    -   id: rst-linter
 -   repo: https://github.com/pre-commit/mirrors-fixmyjs
     rev: v2.0.0
     hooks:
     -   id: fixmyjs
 -   repo: https://github.com/pre-commit/mirrors-jshint
-    rev: v2.9.7
+    rev: v2.10.1
     hooks:
     -   id: jshint
--   repo: https://github.com/Lucas-C/pre-commit-hooks-markup
-    rev: v1.0.0
-    hooks:
-    -   id: rst-linter
