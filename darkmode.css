@@ -1,0 +1,222 @@
+body {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+.header-3, .header-4 {
+    color: #ebdbb2;
+}
+
+.scroll-man-loading .table-loading {
+    background-image: url(/static/img/app/black_paging.gif) !important;
+}
+
+.link {
+    color: #458588;
+}
+
+/* header */
+#app-settings, #sm-container {
+    background-color: #458588;
+}
+.app-settings-action {
+    color: #458588;
+}
+.app-settings-btn {
+    border: 1px solid #458588;
+}
+.app-settings-btn:hover {
+    background-color: #458588;
+}
+.body-copy-4 {
+    color: #a89984;
+}
+.settings-link:hover, .sm-suggested-status:hover {
+    background-color: hsla(0, 0%, 84.7%, .3);
+}
+.wn-header {
+    border-bottom: 1px solid #504945;
+}
+.wn-log-link {
+    border-top: 1px solid #504945;
+}
+.wn-log-link a {
+    color: #458588;
+}
+.wn-row {
+    background-color: #3c3836;
+    border-bottom: 1px solid #504945;
+}
+.wn-row-seen {
+    background-color: #282828;
+}
+.wn-row-title, .wn-row-link a {
+    color: #458588;
+}
+.wn-row-description {
+    color: #ebdbb2;
+}
+.wn-row-date {
+    color: #ab9984;
+}
+
+/* summary pages */
+.filtered-transcript-table:hover, table.filtered>tbody>tr:hover {
+    background-color: hsla(0, 0%, 84.7%, .3);
+}
+.filtered-transcript-table>tr>td, table.filtered>tbody>tr>td {
+    border-bottom: 1px solid #3c3836;
+}
+.filter-tabs .item.selected {
+    border-bottom: 3px solid #458588;
+}
+.filter-tabs .item:hover {
+    color: #ebdbb2;
+}
+.filter-3 {
+    color: #ebdbb2;
+}
+.filter-4 {
+    color: #ab9984;
+}
+.subhead-9, .subhead-12 {
+    color: #a89984;
+}
+
+#filter-icon svg {
+    fill: #a89984;
+    stroke: #a89984;
+}
+.tooltip-callout, .tooltip-content {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+.tooltip-content {
+    border: 1px solid #3c3836;
+}
+
+.filtered-transcript-table:hover, table.filtered>tbody>tr:hover {
+    /*
+    There's a bug which causes this to get applied *twice* on hover. That
+    doesn't matter when the background is white, but that doesn't work for us,
+    so we can't just do:
+
+    background-color: hsla(0, 0%, 84.7%, .3);
+
+    Fortunately, when can just pre-calculate this. Math to the rescue!
+    Convenient calculator: http://marcodiiga.github.io/rgba-to-rgb-conversion
+
+    #282828 + hsla(0, 0%, 84.7%, .3) = #5d5d5d
+    */
+    background-color: #5d5d5d;
+}
+.subhead-3 {
+    color: #bdae93;
+}
+
+table.filtered.empty .filtered-transcript-table:hover, table.filtered.empty>tbody>tr:hover {
+    /*
+    I wonder why this rule exists? In vanilla Dialpad, it just forces the
+    background color to be white on hover for a bunch of resources... which are
+    already white.
+    */
+    background-color: #282828;
+}
+
+/* conversation view */
+.cr-text .cr-container {
+    background-color: #3c3836;
+}
+.cr-me.cr-text .cr-container {
+    /* the Gruvbox color looks too bright here */
+    /* background-color: #83a598; */
+    background-color: rgba(68, 85, 136, 0.5);
+}
+
+.contact-bar-wrapper {
+    border-bottom: 1px solid #3c3836;
+}
+.contact-search-text {
+    color: #83a598;
+}
+svg.contact-search-svg {
+    fill: #83a598;
+}
+.body-copy-7, .body-copy-8, .body-copy-9, .body-copy-32, .body-copy-33, .stamp-2 {
+    color: #ebdbb2;
+}
+.stamp-3 {
+    color: #a89984;
+}
+
+#conversation-progress-bar {
+    background-color: #3c3836;
+}
+.message-text-container {
+    background-color: #282828;
+}
+
+/* left bar */
+#sidebar {
+    background-color: #3c3836;
+    border-right: 1px solid #3c3836;
+}
+.header-v2 {
+    color: #ebdbb2;
+}
+.app-single svg, .calls-link svg, .coaching-group-link svg, .contacts-link svg {
+    fill: #ebdbb2;
+}
+.nb-channel-icon {
+    color: #665c54;
+}
+.header-v2-4 {
+    color: #ebdbb2;
+}
+.body-copy-v2-1 {
+    color: #ebdbb2;
+}
+.nav-divider {
+    border-right: 1px solid #504945;
+}
+.cr-status-message {
+    color: #bdae93;
+}
+
+/* right bar */
+#rightbar {
+    background-color: #282828;
+    border-left: 1px solid #3c3836;
+}
+.header-v2-5 {
+    color: #a89984;
+}
+.subhead-4 {
+    color: #ebdbb2;
+}
+.contact-info-divider {
+    border-top: 1px solid #3c3836;
+}
+
+svg.icon-add-contact, svg.icon-add-field, svg.icon-new-tab, .hide-button svg, .remove-row svg {
+    stroke: #83a598;
+    fill: #83a598;
+}
+.subhead-2 {
+    color: #83a598;
+}
+
+.contact-group-contact-row:hover {
+    background-color: hsla(0, 0%, 84.7%, .3);
+}
+
+/* tooltips */
+.c-menu-box {
+    background-color: #282828;
+}
+.c-menu .c-menu-item .c-menu-item-a:focus, .c-menu .c-menu-item .c-menu-item-a:hover {
+    background-color: rgba(68, 85, 136, 0.5);
+    color: #a89984;
+}
+.c-menu .c-menu-item .c-menu-item-a {
+    color: #a89984;
+}
