@@ -159,10 +159,15 @@ svg.contact-search-svg {
     fill: #83a598;
 }
 .body-copy-7, .body-copy-8, .body-copy-9, .body-copy-32, .body-copy-33, .stamp-2 {
-    color: #ebdbb2;
+    color: #ebdbb2 !important;
 }
 .stamp-3 {
     color: #a89984;
+}
+
+.markdown-code-block {
+    background-color: #32302f;
+    border: 1px solid #504945;
 }
 
 #conversation-progress-bar {
@@ -193,7 +198,7 @@ svg.contact-search-svg {
     color: #ebdbb2;
 }
 .nav-divider {
-    border-right: 1px solid #504945;
+    border-top: 1px solid #504945;
 }
 .cr-status-message {
     color: #bdae93;
