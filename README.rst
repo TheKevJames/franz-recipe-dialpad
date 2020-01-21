@@ -1,16 +1,18 @@
 Franz Recipe for Dialpad
 ========================
 
-This recipe allows you to integrate Franz with `Dialpad`_.
+This recipe allows you to integrate `Franz`_ with `Dialpad`_. It also works
+with `Ferdi`_, the community-maintained Franz fork.
 
 Installation
 ------------
 
-#. Create a Franz plugins folder on your machine, if it does not exist yet:
+#. Create a plugins folder on your machine, if it does not exist yet. Replace
+   ``<APP>`` with either ``"Franz"`` or ``"Ferdi"``:
 
-   - Linux: ``~/.config/Franz/recipes/dev/``
-   - Mac: ``~/Library/Application Support/Franz/recipes/dev/``
-   - Windows: ``%APPDATA%/Franz/recipes/dev/``
+   - Linux: ``~/.config/<APP>/recipes/dev/``
+   - Mac: ``~/Library/Application Support/<APP>/recipes/dev/``
+   - Windows: ``%APPDATA%/<APP>/recipes/dev/``
 
    where ``~`` is your home directory, eg:
 
@@ -21,13 +23,10 @@ Installation
 #. Copy this repo into the above folder, named ``dialpad``:
 
    - if you have ``git``, run: ``git clone git@github.com:TheKevJames/franz-recipe-dialpad.git ~/.config/Franz/recipes/dev/dialpad``
-   - otherwise, grab the latest `zip file`_ and unzip it into the above folder, then rename it to ``dialpad``
+   - otherwise, grab the latest `zip file`_ and unzip it into the above
+     folder, then rename it to ``dialpad``
 
 #. Reload Franz
-
-.. _Dialpad: https://dialpad.com
-.. _Gruvbox: https://github.com/morhetz/gruvbox
-.. _zip file: https://github.com/TheKevJames/franz-recipe-dialpad/archive/master.zip
 
 Dark Mode
 ---------
@@ -49,3 +48,9 @@ Simply over-write the ``darkmode.css`` file in your installed Dialpad recipe
 directory with ``whitemode.css``, then toggle on Dialpad Dark Mode as above --
 if all goes well, you should see absolutely no change! If you do this, you can
 feel free to toggle Franz to Dark Mode without rendering Dialpad unreadable.
+
+.. _Dialpad: https://dialpad.com
+.. _Ferdi: https://getferdi.com/
+.. _Franz: https://meetfranz.com/
+.. _Gruvbox: https://github.com/morhetz/gruvbox
+.. _zip file: https://github.com/TheKevJames/franz-recipe-dialpad/archive/master.zip

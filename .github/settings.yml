@@ -1,6 +1,7 @@
 repository:
   name: franz-recipe-dialpad
   description: Franz 5 recipe for dialpad.com
+  topics: franz-recipes, dialpad
   private: false
 
   has_issues: true
