@@ -246,3 +246,11 @@ svg.icon-add-contact, svg.icon-add-field, svg.icon-new-tab, .hide-button svg, .r
 .c-menu .c-menu-item .c-menu-item-a {
     color: #a89984;
 }
+
+/* new message */
+#new-message-search-overlay {
+  background-color: #282828;
+}
+.stamp-4 {
+  color: #ebdbb2;
+}
