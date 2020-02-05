@@ -254,3 +254,6 @@ svg.icon-add-contact, svg.icon-add-field, svg.icon-new-tab, .hide-button svg, .r
 .stamp-4 {
   color: #ebdbb2;
 }
+.search-overlay #search-input {
+  color: #ebdbb2;
+}
