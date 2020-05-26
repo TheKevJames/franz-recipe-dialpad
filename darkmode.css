@@ -148,6 +148,12 @@ table.filtered.empty .filtered-transcript-table:hover, table.filtered.empty>tbod
 #filtered-conversation .link:hover {
     color: #458588;
 }
+.feed-item-text {
+    background-color: #3c3836 !important;
+}
+.feed-item-rich-media-inline {
+    background-color: #3c3836 !important;
+}
 
 .contact-bar-wrapper {
     border-bottom: 1px solid #3c3836;
