@@ -142,17 +142,14 @@ table.filtered.empty .filtered-transcript-table:hover, table.filtered.empty>tbod
     /* background-color: #83a598; */
     background-color: rgba(68, 85, 136, 0.5);
 }
-#filtered-conversation .link {
-    color: #458588;
-}
-#filtered-conversation .link:hover {
-    color: #458588;
-}
 .feed-item-text {
     background-color: #3c3836 !important;
 }
 .feed-item-rich-media-inline {
     background-color: #3c3836 !important;
+}
+.rich-media-link {
+    color: #458588 !important
 }
 
 .contact-bar-wrapper {
