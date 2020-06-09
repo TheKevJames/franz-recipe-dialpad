@@ -9,7 +9,6 @@ body {
 .scroll-man-loading .table-loading {
     background-image: url(/static/img/app/black_paging.gif) !important;
 }
-
 .link {
     color: #458588;
 }
@@ -142,13 +141,11 @@ table.filtered.empty .filtered-transcript-table:hover, table.filtered.empty>tbod
     /* background-color: #83a598; */
     background-color: rgba(68, 85, 136, 0.5);
 }
-.feed-item-text {
+.feed-item-text, .feed-item-rich-media-inline {
     background-color: #3c3836 !important;
+    --highlight-color: #504945 !important;
 }
-.feed-item-rich-media-inline {
-    background-color: #3c3836 !important;
-}
-.rich-media-link {
+.rich-media-link, .rich-media-mention {
     color: #458588 !important
 }
 
