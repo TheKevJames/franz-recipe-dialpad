@@ -26,7 +26,16 @@ Installation
    - otherwise, grab the latest `zip file`_ and unzip it into the above
      folder, then rename it to ``dialpad``
 
-#. Reload Franz
+#. Reload Franz/Ferdi
+
+Updating
+--------
+
+If you used ``git`` in the installation step, simply navigate to that folder
+and run ``git pull``.
+
+If not, you'll need to repeat the installation procedure from scratch, deleting
+the folder you created the previous time around.
 
 Dark Mode
 ---------
