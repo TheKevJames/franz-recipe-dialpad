@@ -5,29 +5,46 @@ body {
 .header-3, .header-4 {
     color: #ebdbb2;
 }
-
-.scroll-man-loading .table-loading {
-    background-image: url(/static/img/app/black_paging.gif) !important;
-}
 .link {
     color: #458588;
 }
 
-/* header */
-#app-settings, #sm-container {
-    background-color: #458588;
+/* loading */
+.scroll-man-loading .table-loading {
+    background-image: url(/static/img/app/black_paging.gif) !important;
+}
+
+/* headers/settings */
+#app-settings, #sm-container, #header-bar, #app-version-container {
+    background-color: #504945 !important;
+}
+.d-svg.d-svg--system {
+    fill: #ebdbb2;
 }
 .app-settings-action {
-    color: #458588;
+    color: #ebdbb2;
 }
 .app-settings-btn {
-    border: 1px solid #458588;
+    border: 1px solid #ebdbb2;
 }
 .app-settings-btn:hover {
-    background-color: #458588;
+    color: #ebdbb2;
+    border: 1px solid #ebdbb2;
+    background-color: hsla(0, 0%, 84.7%, .3);
 }
 .body-copy-4 {
     color: #a89984;
+}
+.status-menu, .d-input--sm {
+    background-color: #282828;
+    border: 1px solid hsla(0, 0%, 84.7%, .3);
+    color: #ebdbb2;
+}
+.status-menu-timer div, .status-menu__save {
+    color: #458588 !important;
+}
+.status-menu__save:hover {
+    text-decoration: none;
 }
 .settings-link:hover, .sm-suggested-status:hover {
     background-color: hsla(0, 0%, 84.7%, .3);
@@ -58,9 +75,27 @@ body {
     color: #ab9984;
 }
 
-#harness-warning {
+/* alerts */
+#harness-warning, .whats-new-alert-icon__container, #alertbar .alert2 {
     /* I know this is a different color, but... man that alert is loud. */
     background-color: #af3a03;
+}
+#harness-download {
+    color: #ebdbb2;
+    background-color: #504945;
+}
+#alertbar-table>tbody>tr>td, .alertbar-external-link {
+    color: #ebdbb2;
+}
+svg.icon-dnd_off-inv, svg.icon-dropdown-inv, svg.icon-emoji-inv, svg.icon-error-inv, svg.icon-error_smallx, svg.icon-plus-inv, svg.icon-popup_x-inv, svg.icon-sad_face-inv {
+    fill: #ebdbb2;
+    stroke: #ebdbb2;
+}
+.snooze-dropdown-title {
+    border:1px solid #af3a03;
+}
+.body-copy-20 {
+    color: #af3a03;
 }
 
 /* summary pages */
@@ -116,11 +151,19 @@ body {
     Convenient calculator: http://marcodiiga.github.io/rgba-to-rgb-conversion
 
     #282828 + hsla(0, 0%, 84.7%, .3) = #5d5d5d
-    */
+     */
     background-color: #5d5d5d;
 }
 .subhead-3 {
     color: #bdae93;
+}
+svg.contact-fav-heart {
+    fill: #bdae93;
+    stroke: #bdae93;
+}
+svg.contact-fav-heart.contact-fav-heart-filled {
+    fill: #458588;
+    stroke: #458588;
 }
 
 table.filtered.empty .filtered-transcript-table:hover, table.filtered.empty>tbody>tr:hover {
@@ -128,7 +171,7 @@ table.filtered.empty .filtered-transcript-table:hover, table.filtered.empty>tbod
     I wonder why this rule exists? In vanilla Dialpad, it just forces the
     background color to be white on hover for a bunch of resources... which are
     already white.
-    */
+     */
     background-color: #282828;
 }
 
@@ -145,8 +188,44 @@ table.filtered.empty .filtered-transcript-table:hover, table.filtered.empty>tbod
     background-color: #3c3836 !important;
     --highlight-color: #504945 !important;
 }
-.rich-media-link, .rich-media-mention {
+.feed-item-mms {
+    background-color: #3c3836 !important;
+}
+.rich-media-link, .rich-media-mention, .feed-rich-media-mention.base-rich-media-mention {
     color: #458588 !important
+}
+
+.contact-blocked {
+    color: #af3a03;
+}
+#unknown-number, .rate-item {
+    background-color: #458588;
+    color: #ebdbb2;
+}
+
+.d-btn--primary {
+    background-color: #458588;
+    border-color: #458588;
+}
+.d-btn--primary:hover {
+    background-color: #83a598;
+}
+.d-btn--outlined {
+    border-color: #458588;
+}
+
+.c-menu-box {
+    border: 1px solid hsla(0, 0%, 84.7%, .3);
+}
+.c-did-header {
+    background-color: #504945;
+}
+.c-did-list, .c-did-list .selected {
+    color: #ebdbb2;
+}
+.c-did-list li:hover {
+    background-color: hsla(0, 0%, 84.7%, .3);
+    color: #ebdbb2;
 }
 
 .contact-bar-wrapper {
@@ -177,37 +256,64 @@ svg.contact-search-svg {
     background-color: #282828;
 }
 
+.feed-item-call--incoming, .feed-item-call--incoming .feed-item-call-highlights__content, .feed-item-call__footer--incoming, .feed-item-call__footer--incoming .feed-item-call-highlights__content, .feed-item-call--cancelled, .feed-item-call--cancelled .feed-item-call-highlights__content, .feed-item-call--outgoing, .feed-item-call--outgoing .feed-item-call-highlights__content, .feed-item-call__footer--cancelled, .feed-item-call__footer--cancelled .feed-item-call-highlights__content, .feed-item-call__footer--outgoing, .feed-item-call__footer--outgoing .feed-item-call-highlights__content {
+    background-color: #3c3836;
+}
+.feed-item-base:hover .feed-item-call--incoming, .feed-item-base:hover .feed-item-call--incoming .feed-item-call-highlights__content, .feed-item-base:hover .feed-item-call__footer--incoming, .feed-item-base:hover .feed-item-call__footer--incoming .feed-item-call-highlights__content, .feed-item-base:hover .feed-item-call--cancelled, .feed-item-base:hover .feed-item-call--cancelled .feed-item-call-highlights__content, .feed-item-base:hover .feed-item-call--outgoing, .feed-item-base:hover .feed-item-call--outgoing .feed-item-call-highlights__content, .feed-item-base:hover .feed-item-call__footer--cancelled, .feed-item-base:hover .feed-item-call__footer--cancelled .feed-item-call-highlights__content, .feed-item-base:hover .feed-item-call__footer--outgoing, .feed-item-base:hover .feed-item-call__footer--outgoing .feed-item-call-highlights__content {
+    background-color: hsla(0, 0%, 84.7%, .3);
+}
+.feed-item-base__time {
+    color: #ebdbb2 !important;
+}
+.feed-item-actions-button:hover {
+    background-color: hsla(0, 0%, 84.7%, .3) !important;
+}
+.feed-item-actions__summary {
+    color: #458588 !important;
+}
+
 /* left bar */
 #sidebar {
-    background-color: #3c3836;
-    border-right: 1px solid #3c3836;
+    border-right-color: #504945;
 }
-.header-v2 {
+.leftbar, .leftbar-cta {
+    background-color: #504945;
+}
+.leftbar-cta__btn {
+    background-color: #258588;
+    border-left-color: #83a598;
+    border-right-color: #83a598;
+}
+.leftbar-cta__btn--first {
+    border-left-width: 0;
+}
+.leftbar-cta__btn--last {
+    border-right-width: 0;
+}
+.leftbar-cta__btn:hover {
+    background-color: #83a598;
+}
+.leftbar-section__list li a:hover, .leftbar-links__link:hover, .leftbar-links__link--selected {
+    background-color: hsla(0, 0%, 84.7%, .3);;
+}
+.leftbar-section__list li a, .leftbar-links__link, .leftbar-section-header {
     color: #ebdbb2;
 }
-.app-single svg, .calls-link svg, .coaching-group-link svg, .contacts-link svg {
-    fill: #ebdbb2;
+.leftbar-section-item__status {
+    color: #a89984;
 }
-.nb-channel-icon {
-    color: #665c54;
-}
-.header-v2-4 {
+.leftbar-section-item--selected .leftbar-section-item__status {
     color: #ebdbb2;
 }
-.body-copy-v2-1 {
-    color: #ebdbb2;
-}
-.nav-divider {
-    border-top: 1px solid #504945;
-}
-.cr-status-message {
-    color: #bdae93;
+.leftbar-section-item:active {
+    background-color: #504945;
+    border-color: #504945;
 }
 
 /* right bar */
 #rightbar {
     background-color: #282828;
-    border-left: 1px solid #3c3836;
+    border-left-color: #504945 !important;
 }
 .header-v2-5 {
     color: #a89984;
@@ -219,7 +325,7 @@ svg.contact-search-svg {
     border-top: 1px solid #3c3836;
 }
 
-svg.icon-add-contact, svg.icon-add-field, svg.icon-new-tab, .hide-button svg, .remove-row svg {
+svg.icon-add-contact, svg.icon-add-field, svg.icon-new-tab, .hide-button svg, .remove-row svg, .contact-info-left-column .iblock svg.icon-contact-info {
     stroke: #83a598;
     fill: #83a598;
 }
@@ -227,11 +333,18 @@ svg.icon-add-contact, svg.icon-add-field, svg.icon-new-tab, .hide-button svg, .r
     color: #83a598;
 }
 
+/* TODO: scrollbar colors? */
+.nav-divider {
+    border-color: #3c3836;
+}
+.body-copy-v2-1, .header-v2-11, .header-v2-12 {
+    color: #ebdbb2;
+}
 .contact-group-contact-row:hover {
     background-color: hsla(0, 0%, 84.7%, .3);
 }
 
-.wlink, a.wlink {
+.wlink, a.wlink, .contact-label__add-or-edit, .contact-label__save {
     color: #458588;
 }
 
@@ -248,12 +361,54 @@ svg.icon-add-contact, svg.icon-add-field, svg.icon-new-tab, .hide-button svg, .r
 }
 
 /* new message */
+/* TODO font*/
 #new-message-search-overlay {
-  background-color: #282828;
+    background-color: #282828;
+}
+.target-menu-single-item {
+    color: #458588;
+}
+#new-message-search-view .search-overlay #search-input::-webkit-input-placeholder, #search-input[contentEditable=true]:empty:before {
+    color: #ebdbb2;
+}
+.header-7, .header-8, .header-9 {
+    color: #ebdbb2;
+}
+#search-input:focus {
+    outline: none;
 }
 .stamp-4 {
-  color: #ebdbb2;
+    color: #ebdbb2;
 }
-.search-overlay #search-input {
-  color: #ebdbb2;
+
+/* search */
+.search-overlay {
+    background-color: #282828;
+}
+.search-overlay input#search-input {
+    color: #ebdbb2;
+}
+.search-overlay input#search-input::placeholder {
+    color: #ebdbb2;
+    opacity: 50%;
+}
+#multi-column-container {
+    background-color: #3c3836;
+}
+.filtered-transcript-table:hover, .frequent-contact-suggestions-column tr:hover, table.filtered>tbody>tr:hover {
+    background-color: hsla(0, 0%, 84.7%, .3);
+}
+
+.search-tab__results--selected {
+    color: #ebdbb2;
+}
+.search-tab__badge--selected {
+    background-color: #458588;
+}
+svg.icon-contact-info {
+    fill: #458488;
+}
+
+.search-overlay .selected {
+    background-color: hsla(0, 0%, 84.7%, .3);
 }
