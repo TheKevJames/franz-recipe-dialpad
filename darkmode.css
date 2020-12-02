@@ -412,3 +412,158 @@ svg.icon-contact-info {
 .search-overlay .selected {
     background-color: hsla(0, 0%, 84.7%, .3);
 }
+
+/* shared calls */
+.branding-background {
+    background: #458588;
+}
+.branding-header-type svg.voiceai-vi-mark {
+    height: 20px !important;  /* not exactly "dark mode", but its nice when things are the right size... */
+}
+.branding-main {
+    background-color: #282828;
+    border-radius: 0;
+}
+
+.cr-search__input {
+    background-color: #3c3836 !important;
+    border: #3c3836 !important;
+    border-radius: 0 !important;
+    color: #ebdbb2 !important;
+}
+.cr-search__input::placeholder {
+    color: #ebdbb2 !important;
+    opacity: 50%;
+}
+.cr-share {
+    background-color: #458588 !important;
+    color: #ebdbb2 !important;
+}
+
+.cr-nav-header {
+    background-color: #3c3836;
+    color: #ebdbb2;
+}
+.cr-nav-header__tooltip-icon {
+    background-color: #a89984;
+    color: #458588;
+}
+.cr-nav-category__container--selected, .cr-nav-category__container:active {
+    background-color: #a89984;
+}
+.cr-nav-category__container:hover:not(.cr-nav-category__container--selected) {
+    background-color: #bdae93;
+}
+
+.cr-playbar-container {
+    background-color: #504945;
+}
+.cr-playbar .audio-seek-bar-clickable {
+    background-color: #fbf1c7;
+}
+.base-call-recording-controls__play-button .base-audio-icon-container {
+    background-color: #458588;
+    color: #ebdbb2;
+}
+svg.base-audio-icon {
+    fill: #ebdbb2;
+}
+.cr-playbar__recording-handle {
+  background-color: #d5c4a1
+}
+.cr-playbar__recording-handle::before {
+    color: #458588;
+}
+.base-media-dropdown-speed-control__select-button {
+    color: #458588 !important;
+}
+.cr-playbar__show-caller-button {
+    color: #458588;
+    border-color: #a89984 !important;
+}
+.dropdown-menu-callout {
+    background-color: #504945;
+    border-color: #7c6f64;
+    border-radius: 0;
+}
+.dropdown-menu-item {
+    color: #ebdbb2;
+}
+.dropdown-menu-item--highlight, .dropdown-menu-item:hover {
+    background-color: hsla(0, 0%, 84.7%, .3);
+    border-radius: 0;
+}
+
+.cr-tab-active {
+    border-bottom-color: #ebdbb2 !important;
+}
+.cr-participant-filter__text, .cr-participant-filter__text:hover {
+    color: #458588;
+}
+.vue-checkbox__input:checked {
+    background-color: #458588;
+    border-color: #458588;
+}
+
+.cr-nav-header__tooltip {
+    border-radius: 0;
+    background-color: #504945;
+    border-color: #7c6f64;
+    color: #ebdbb2;
+}
+.cr-nav-header__tooltip-link {
+    color: #458588 !important;
+}
+
+.cr-row-controls-wrapper--highlight, .cr-row-controls-wrapper--highlight:hover {
+    background-color: #504945 !important;
+}
+.cr-row-controls-wrapper:hover {
+    background-color: #7c6f64;
+}
+
+.cr-excerpts-section-item {
+    background-color: #504945;
+}
+.cr-excerpts-section-item__header {
+    color: #ebdbb2;
+}
+.cr-excerpts-section-header:hover {
+    background-color: #7c6f64 !important;
+}
+.cr-excerpts-section-item__timestamp {
+    color: #a89984;
+}
+.cr-excerpts-section-item:hover {
+    background-color: #7c6f64;
+}
+.cr-excerpts-section-item--selected {
+    background-color: #665c54 !important;
+}
+.pageable-list-default-button {
+    background-color: #7c6f64 !important;
+    color: #ebdbb2 !important;
+}
+.cr-excerpts-section-header, .cr-excerpts-section-item {
+    border-radius: 0 !important;
+}
+.cr-excerpts-section-item__text .highlight, .cr-transcript-row-text .cr-transcript-row-text__text span.highlight {
+    border-radius: 0;
+    background-color: #928374 !important;
+    padding: 1px;  /* readability */
+}
+
+.cr-ch-login-button {
+    background-color: #458588 !important;
+    color: #ebdbb2 !important;
+}
+.call-review-rightbar-transcript {
+    background-color: #504945;
+}
+.cr-rightbar-transcript__close-button {
+    right: 1.8rem;  /* someone forgot about scrollbars */
+}
+
+.branding-footer-item-button {
+    color: #458588 !important;
+}
