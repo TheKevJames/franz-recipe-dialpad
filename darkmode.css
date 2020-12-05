@@ -244,9 +244,14 @@ svg.contact-search-svg {
     color: #a89984;
 }
 
-.markdown-code-block {
+.markdown-code-block, .rich-media-codeblock {
     background-color: #32302f;
     border: 1px solid #504945;
+    border-radius: 0;
+}
+
+.feed-item-base:hover .feed-item-actions--external.feed-item-actions--transparent-background {
+    background-color: hsla(0, 0%, 84.7%, .3) !important;
 }
 
 #conversation-progress-bar {
