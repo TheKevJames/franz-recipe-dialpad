@@ -284,6 +284,9 @@ svg.contact-search-svg {
 .leftbar, .leftbar-cta {
     background-color: #504945;
 }
+.leftbar-section {
+    background-color: #504945;
+}
 .leftbar-cta__btn {
     background-color: #258588;
     border-left-color: #83a598;
