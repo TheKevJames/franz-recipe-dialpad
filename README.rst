@@ -22,7 +22,7 @@ Installation
 
 #. Copy this repo into the above folder, named ``dialpad``:
 
-   - if you have ``git``, run: ``git clone git@github.com:TheKevJames/franz-recipe-dialpad.git ~/.config/Franz/recipes/dev/dialpad``
+   - if you have ``git``, run: ``git clone git@github.com:TheKevJames/franz-recipe-dialpad.git ~/.config/<APP>/recipes/dev/dialpad``
    - otherwise, grab the latest `zip file`_ and unzip it into the above
      folder, then rename it to ``dialpad``
 
