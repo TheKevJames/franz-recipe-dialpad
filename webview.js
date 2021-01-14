@@ -1,7 +1,7 @@
 module.exports = (Franz) => {
   function getMessages() {
-    let unreadCount = 0;
-    $.each($('.cr-unread-count'), (idx, item) => unreadCount += Number(item.innerHTML));
+    var unreadCount = 0;
+    $.each($('[data-qa-has-unreads]'), (idx, item) => unreadCount += parseInt(item.attributes["data-qa-has-unreads"].value, 10));
 
     Franz.setBadge(unreadCount, 0);
   }
