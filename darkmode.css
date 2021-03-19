@@ -277,6 +277,12 @@ svg.contact-search-svg {
     color: #458588 !important;
 }
 
+.feed-list__is-typing {
+    background-color: #504945 !important;
+    color: #ebdbb2 !important;
+    padding-left: 1rem;
+}
+
 /* left bar */
 #sidebar {
     border-right-color: #504945;
