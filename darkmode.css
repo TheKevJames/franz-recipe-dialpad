@@ -254,6 +254,18 @@ svg.contact-search-svg {
     background-color: hsla(0, 0%, 84.7%, .3) !important;
 }
 
+.feed-item-rich-media-card {
+    background-color: hsla(0, 0%, 0%, 0) !important;
+}
+
+.rich-media-uc-card {
+    border: 0rem !important;
+}
+
+.rich-media-uc-card .rich-media-uc-card__content {
+    background-color: #3c3836 !important;
+}
+
 #conversation-progress-bar {
     background-color: #3c3836;
 }
