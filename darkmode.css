@@ -250,7 +250,7 @@ svg.contact-search-svg {
     border-radius: 0;
 }
 
-.feed-item-base:hover .feed-item-actions--external.feed-item-actions--transparent-background {
+.feed-item-base:hover .feed-item-actions--transparent-background, .feed-item-actions {
     background-color: hsla(0, 0%, 84.7%, .3) !important;
 }
 
