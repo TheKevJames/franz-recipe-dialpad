@@ -323,7 +323,7 @@ svg.contact-search-svg {
     background-color: hsla(0, 0%, 84.7%, .3);;
 }
 .leftbar-section__list li a, .leftbar-links__link, .leftbar-section-header {
-    color: #ebdbb2;
+    color: #ebdbb2 !important;
 }
 .leftbar-section-item__status {
     color: #a89984;
@@ -334,6 +334,9 @@ svg.contact-search-svg {
 .leftbar-section-item:active {
     background-color: #504945;
     border-color: #504945;
+}
+.leftbar-recents__show-all {
+    color: #458588;
 }
 
 /* right bar */
