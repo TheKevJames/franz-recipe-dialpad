@@ -1,10 +1,20 @@
-module.exports = (Franz) => {
-  function getMessages() {
-    var unreadCount = 0;
-    $.each($('[data-qa-has-unreads]'), (idx, item) => unreadCount += parseInt(item.attributes["data-qa-has-unreads"].value, 10));
+module.exports = Ferdi => {
+  const getMessages = () => {
+    let direct = 0;
+    let indirect = 0;
 
-    Franz.setBadge(unreadCount, 0);
-  }
+    for (const element of document.querySelectorAll('.leftbar-unread-count')) {
+      direct += Ferdi.safeParseInt(element.attributes['data-qa-unread-count'].value);
+    }
 
-  Franz.loop(getMessages);
+    for (const element of document.querySelectorAll('.leftbar-section-item')) {
+      if (element.attributes['data-qa-selected'] == "true") {
+        indirect += 1;
+      }
+    }
+
+    Ferdi.setBadge(direct, indirect);
+  };
+
+  Ferdi.loop(getMessages);
 };
