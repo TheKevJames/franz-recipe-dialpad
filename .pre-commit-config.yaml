@@ -37,6 +37,6 @@ repos:
     hooks:
     -   id: fixmyjs
 -   repo: https://github.com/pre-commit/mirrors-jshint
-    rev: v2.13.5
+    rev: v2.13.6
     hooks:
     -   id: jshint
